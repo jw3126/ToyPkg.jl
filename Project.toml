@@ -1,0 +1,10 @@
+name = "ToyPkg"
+uuid = "6bad61c4-3c25-5a46-b15a-41e8b48bfd73"
+authors = ["Jan Weidner <jw3126@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
